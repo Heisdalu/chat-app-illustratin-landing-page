@@ -267,6 +267,7 @@ body{
   }
 
   &__text {
+    max-width: 300px;
     line-height: 1.3rem;
     color: $Dark-Grayish-Violet;
     font-size: 0.9rem;
@@ -336,12 +337,17 @@ body{
   }
 
   .chat_app__content {
-    margin-left: 0;
     padding-left: 2rem;
     display: flex;
     flex-direction: column;
     text-align: left;
     justify-content: center;
+
+    &__text{
+      max-width: 400px;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
   }
 
   .attribution{

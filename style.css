@@ -266,6 +266,7 @@ body {
 }
 
 .chat_app__content__text {
+  max-width: 300px;
   line-height: 1.3rem;
   color: #a39daa;
   font-size: 0.9rem;
@@ -324,7 +325,6 @@ body {
     font-size: 0.9rem;
   }
   .chat_app__content {
-    margin-left: 0;
     padding-left: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -337,6 +337,11 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .chat_app__content__text {
+    max-width: 400px;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
   .attribution {
     margin-top: 110px;
