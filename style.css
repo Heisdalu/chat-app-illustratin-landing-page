@@ -164,6 +164,13 @@ body {
   background-color: white;
 }
 
+.chat_app__illustration__mobile__inner__message > article,
+.chat_app__illustration__mobile__inner__message > section {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  opacity: 0;
+}
+
 .chat_app__illustration__mobile__inner__message__dogs_photo {
   margin-left: auto;
 }

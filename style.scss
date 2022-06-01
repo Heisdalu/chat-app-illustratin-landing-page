@@ -173,6 +173,12 @@ body{
   }
 }
 
+.chat_app__illustration__mobile__inner__message > article, 
+.chat_app__illustration__mobile__inner__message > section{
+  transform: translateY(50px);
+  opacity: 0;
+}
+
 .chat_app__illustration__mobile__inner__message__dogs_photo {
   // display: flex;
   margin-left: auto;
