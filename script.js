@@ -6,6 +6,6 @@ window.addEventListener('DOMContentLoaded', () => {
    page.forEach((el, i) => {
        el.style.transform = 'translateY(0)'
        el.style.transition = `a ${i}s`;
-       el.style.opacity = 1
+       el.style.opacity = 1;
    })
 })
